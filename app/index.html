@@ -2,20 +2,56 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Задание Datum</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/libs.min.css">
 </head>
 <body>
-			<h1>		Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Собрал, жизни последний но вершину они. Города коварных вопроса, текстов использовало, точках семь предупредила пор буквенных однажды, не по всей которой.</h1>
 
-			<div>	
-						Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Великий встретил ему даль собрал города, предупредила алфавит, щеке толку за журчит на берегу меня там, рукопись живет lorem! От всех, повстречался.
+	<div class="container">
+		<div class="col-md-12">
+			<h1>	Заданием было:	cоздать статический сайт из 2-х html страниц landing-page (описание сайта и переход на карту) и с картой парка ДГТУ со следующим функционалом:</h1>
+		</div>
+		<div class="col-md-12 shadow">
+			<ul>
+				<li>карта шириной и  высотой 100%. Картографическая основа — openstreetmap. Центр карты — парк ДГТУ;</li>
+				<li>расположить на карте несколько точек интереса парка, по клику на которые показывать информацию в popup; подобрать соответствующие иконки для каждого из объектов;</li>
+				<li>подключить к карте плагины:  Leaflet.MousePosition, Leaflet.MeasureControl;
+				<a href="https://github.com/ardhi/Leaflet.MousePosition">https://github.com/ardhi/Leaflet.MousePosition</a><br>
+				<a href="https://github.com/makinacorpus/Leaflet.MeasureControl">https://github.com/makinacorpus/Leaflet.MeasureControl</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="col-md-12 shadow">
+			<h3>Требования</h3>
+			<ul>
+				<li>для landing-page использовать bootstrap;</li>
+				<li>использовать библиотеку Leafletjs для отображения карты;<br>
+				<a href="http://leafletjs.com/index.html">http://leafletjs.com/index.html</a></li>
+				<li>CSS стили и JavaScript код поместить в отдельные файлы;</li>
+			</ul>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 shadow">	
+				<p>При нажатии кнопки "Перейти на карту" вас перекинет на страницу map.html <br>
+				Центром карты будет парк ДГТУ</p>
+			</div>
+					
+			<div class="col-md-4 shadow">	
+				Для выполнения задания я использовал все указанные технологии, а так же Gulp для сборки и компиляции Sass.
 			</div>
 
-
+			<div class="col-md-4 shadow">	
+				Задание по python можно найти в папке "python" в том же репозитории
+			</div>
+		</div>
+		<a class="btn btn-primary col-md-offset-4 col-md-4" href="map.html" role="button">Перейти на карту</a>
+	</div>
 
 	<script src="js/libs.min.js" ></script>	
 	<script src="js/common.js" ></script>
+	
 </body>
 </html>
