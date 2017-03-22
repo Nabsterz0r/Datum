@@ -1,38 +1,132 @@
-.col-md-12 {
-  margin-top: 10px; }
-  .col-md-12 h1 {
-    margin-top: 5px; }
-
-.col-md-12 ul {
-  font-size: 20px; }
-
-.col-md-4 {
-  font-size: 20px; }
-
-.shadow:hover {
-  -webkit-border-radius: 4px;
-          border-radius: 4px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
-
-#hr {
-  border: none;
-  background-color: blue;
-  height: 2px;
-  color: blue; }
-
-.col-md-4 {
-  margin-top: 50px; }
-
-.btn {
-  margin-top: 50px;
-  text-align: center; }
-
 #mapContainer {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0; }
+
+body, html {
+  height: 100%;
+  background-color: #000; }
+
+#Ahome {
+  float: left;
+  line-height: 70px; }
+
+.into-first-wrapper {
+  display: table-cell;
+  vertical-align: middle; }
+
+.first-wrapper {
+  display: table;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  background: url(../img/temnyy-fon-soty-zelenyy-svet.jpg) bottom center #000;
+  background-size: cover; }
+  .first-wrapper .container {
+    text-align: center; }
+    .first-wrapper .container p {
+      font-size: 18px; }
+
+#about {
+  -webkit-box-shadow: 0px -30px 130px 70px black;
+          box-shadow: 0px -30px 130px 70px black; }
+  #about .col-md-6 {
+    color: #fff;
+    font-size: 20px; }
+  #about .container {
+    padding-top: 330px;
+    margin-bottom: 390px; }
+
+.second-row {
+  padding-top: 100px; }
+
+.col-md-12 {
+  margin-top: 10px; }
+  .col-md-12 h1 {
+    margin-top: 5px; }
+
+.map {
+  background: url(../img/9784.jpg) center #000;
+  -webkit-box-shadow: inset 0px 0px 80px 50px black;
+          box-shadow: inset 0px 0px 80px 50px black;
+  background-size: cover; }
+  .map .container {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+
+.btn-primary {
+  margin-top: 50px;
+  margin-bottom: 80px; }
+
+.container h3, h1 {
+  color: #fff; }
+
+#contact .container {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+#contact .col-md-6 {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.cont {
+  color: #2ba9e3;
+  font-size: 20px; }
+
+#footer {
+  width: 80%;
+  padding: 20px 0 20px 0; }
+
+#foot {
+  color: #fff;
+  float: right; }
+
+.header {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  height: 70px;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+  font-size: 18px; }
+  .header ul {
+    margin: 26px;
+    float: right;
+    list-style: none; }
+  .header li {
+    display: inline;
+    margin: 0 10px 0 10px; }
+
+#menu a:active {
+  text-decoration: none;
+  color: inherit; }
+
+#menu a:link {
+  text-decoration: none;
+  color: inherit; }
+
+#menu a:visited {
+  text-decoration: none;
+  color: inherit; }
+
+.headerscroll {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70px;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  font-size: 16px; }
+  .headerscroll ul {
+    margin: 26px;
+    float: right;
+    list-style: none; }
+  .headerscroll li {
+    display: inline;
+    margin: 0 10px 0 10px; }

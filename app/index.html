@@ -8,50 +8,83 @@
 </head>
 <body>
 
-	<div class="container">
-		<div class="col-md-12">
-			<h1>	Заданием было:	cоздать статический сайт из 2-х html страниц landing-page (описание сайта и переход на карту) и с картой парка ДГТУ со следующим функционалом:</h1>
+	<div id="header" class="header">
+		<div class="container">
+			<nav id="menu">
+				<a id="Ahome" class="go_to" href="#home">Home</a>
+				<ul>
+					<li><a class="go_to" href="#about">About</a></li>
+					<li><a class="go_to" href="#map">Map</a></li>
+					<li><a class="go_to" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 		</div>
-		<div class="col-md-12 shadow">
-			<ul>
-				<li>карта шириной и  высотой 100%. Картографическая основа — openstreetmap. Центр карты — парк ДГТУ;</li>
-				<li>расположить на карте несколько точек интереса парка, по клику на которые показывать информацию в popup; подобрать соответствующие иконки для каждого из объектов;</li>
-				<li>подключить к карте плагины:  Leaflet.MousePosition, Leaflet.MeasureControl;
-				<a href="https://github.com/ardhi/Leaflet.MousePosition">https://github.com/ardhi/Leaflet.MousePosition</a><br>
-				<a href="https://github.com/makinacorpus/Leaflet.MeasureControl">https://github.com/makinacorpus/Leaflet.MeasureControl</a>
-				</li>
-			</ul>
-		</div>
+	</div>
 
-		<div class="col-md-12 shadow">
-			<h3>Требования</h3>
-			<ul>
-				<li>для landing-page использовать bootstrap;</li>
-				<li>использовать библиотеку Leafletjs для отображения карты;<br>
-				<a href="http://leafletjs.com/index.html">http://leafletjs.com/index.html</a></li>
-				<li>CSS стили и JavaScript код поместить в отдельные файлы;</li>
-			</ul>
+	<header class="first-wrapper" id="home">
+		<div class="into-first-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1><b>Карта парка дгту</b></h1>
+						<p>Карта с расположенными на ней точками интереса</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section id="about">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<h3><b>About</b></h3>
+				<p>карта шириной и  высотой 100%. Картографическая основа — openstreetmap. Центр карты — парк ДГТУ</p>
+				<p>На карте несколько точек интереса парка, по клику на которые показывается информацию о них</p>
+				<p>К карте подключены плагины:  Leaflet.MousePosition, Leaflet.MeasureControl</p>
+			</div>
+		</div>
+	</section>
+
+<section id="map" class="map">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center">
+				<h3>При нажатии на кнопку, вы перейдете на страницу с картой</h3>
+				<a class="btn btn-primary" href="map.html" role="button">Перейти на карту</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="contact">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h3>Связаться с разработчиком</h3>
+			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-md-4 shadow">	
-				<p>При нажатии кнопки "Перейти на карту" вас перекинет на страницу map.html <br>
-				Центром карты будет парк ДГТУ</p>
+			<div class="col-md-6 col-md-offset-3">
+				<ul class="list-inline">
+					<li><a class="btn btn-info" href="mailto:Nabsterz0r@gmail.com" role="button">Nabsterz0r@gmail.com</a></li>
+					<li><a href=""><a class="btn btn-success" href="callto:+7123321123" role="button">+7123321123</a></a></li>
+					<li><a class="btn btn-warning" href="https://github.com/Nabsterz0r" role="button">Github</a></li>
+				</ul>
 			</div>
-					
-			<div class="col-md-4 shadow">	
-				Для выполнения задания я использовал все указанные технологии, а так же Gulp для сборки и компиляции Sass.
-			</div>
-
-			<div class="col-md-4 shadow">	
-				Задание по python можно найти в папке "python" в том же репозитории
-			</div>
-		</div>
-		<a class="btn btn-primary col-md-offset-4 col-md-4" href="map.html" role="button">Перейти на карту</a>
+		</div>	
 	</div>
+</section>
+
+<section id="footer">
+	<div id="foot">
+		<p>Created by Evgeny Ukolov</p>
+	</div>
+</section>
 
 	<script src="js/libs.min.js" ></script>	
-	<script src="js/common.js" ></script>
+	<script src="js/main.js" ></script>
 	
 </body>
 </html>

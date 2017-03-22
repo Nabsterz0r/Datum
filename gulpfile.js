@@ -33,7 +33,9 @@ gulp.task('scripts', function() {
 		'app/libs/js/leaflet.js',
 		'app/libs/Leaflet.MeasureControl/docs/leaflet-draw/dist/leaflet.draw.js',
 		'app/libs/Leaflet.MeasureControl/docs/leaflet.measurecontrol.js',
-		'app/libs/Leaflet.Control.MousePosition/L.Control.MousePosition.js'
+		'app/libs/Leaflet.Control.MousePosition/L.Control.MousePosition.js',
+		'app/libs/js/jquery-3.2.0.js',
+		'app/libs/js/bootstrap.js'
 	])
 	.pipe(concat('libs.min.js'))
 	.pipe(uglify())
